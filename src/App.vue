@@ -1,7 +1,9 @@
 <template>
   <nav-bar />
-
-  <router-view />
+  <div class="container mt-3 text-center">
+    <router-view />
+  </div>
+  >
 </template>
 
 <script>
@@ -10,3 +12,11 @@ export default {
   components: { NavBar },
 };
 </script>
+
+<style scoped>
+div {
+  border-radius: 13px;
+  box-shadow: 3px 3px 7px #ccc;
+  padding: 1rem;
+}
+</style>
